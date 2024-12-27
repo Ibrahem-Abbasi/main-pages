@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saraya Social Center - Group</title>
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+<!-- Header -->
+<nav class="navbar navbar-inverse container-fluid">
+    <!-- Title -->
+    <div class="navbar-header">
+        <p class="navbar-brand" style="color: white;">Saraya Social Center</p>
+    </div>
+    <ul class="nav navbar-nav navbar-right" style="display: flex; align-items: center;">
+        <!-- Account Link -->
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Account Name</a></li>
+        <!-- Logout Button -->
+        <li>
+            <button class="btn btn-danger" id="logoutBtn"
+                    style="margin-left: 10px; margin-right:20px"><span
+                    class="glyphicon glyphicon-log-out"></span> Logout
+            </button>
+        </li>
+    </ul>
+</nav>
+
+<div class="container-fluid">
+    <div class="row">
+
+        <!-- Sidebar -->
+        <div class="col-sm-2" style="background-color:lightgrey; height: 100vh; padding-top: 20px;">
+            <ul class="nav nav-pills nav-stacked">
+                <li><a href="#"><span class="glyphicon glyphicon-home"></span> Dashboard</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-th"></span> Groups</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Students</a></li>
+            </ul>
+        </div>
+
+        <div class="col-sm-10">
+
+            <!-- Main Section -->
+            <div class="container col-sm-12"
+                 style="background-color: wheat; padding: 20px; margin-bottom: 20px;">
+                <div class="row">
+
+                    <div class="col-sm-1" style="text-align: right; margin-top: 10px;">
+                        <button class="btn btn-warning"><span
+                                class="glyphicon glyphicon-pencil"></span> Edit
+                        </button>
+                    </div>
+
+                    <div class="col-sm-5">
+                        <h4><strong>Group Name:</strong> Group 1</h4>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <h5><strong>Description:</strong> This group is focused on social activities
+                            and community development. We engage in various events and outreach
+                            programs.</h5>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Data Section -->
+            <div class="container col-sm-12"
+                 style="background-color: wheat; padding: 20px; margin-bottom: 20px;">
+                <div class="row">
+
+                    <div class="col-sm-4">
+                        <h5><strong>Teacher:</strong> Israa Abbasi</h5>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <h5><strong>Start Date:</strong> 5/7/2024</h5>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <h5><strong>End Date:</strong> TBD</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sessions Section -->
+            <div class="container col-sm-12"
+                 style="background-color: wheat; padding: 20px; margin-bottom: 20px;">
+                <div class="row">
+
+                    <div class="col-sm-4">
+                        <a href="#" class="btn btn-link"><strong>Sessions</strong></a>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <a href="#" class="btn btn-link"><strong>Last Session :</strong> 27/12
+                            /2024</a>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <button class="btn btn-primary"><span
+                                class="glyphicon glyphicon-plus"></span> New Session
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Students Section -->
+            <div class="container col-sm-12"
+                 style="background-color: wheat; padding: 20px; margin-bottom: 20px;">
+                <div class="row">
+
+                    <div class="col-sm-12">
+                        <a href="#" class="btn btn-link"><strong>Students</strong></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
