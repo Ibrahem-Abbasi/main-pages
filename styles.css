@@ -35,7 +35,8 @@ body{
 
 .content-section{
     border-radius: 10px;
-    background-color: wheat;
+    /*background-color: wheat;*/
+    background: linear-gradient(wheat, papayawhip);
     padding: 20px;
 }
 
