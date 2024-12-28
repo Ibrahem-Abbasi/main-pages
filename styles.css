@@ -1,8 +1,4 @@
 
-body{
-    background: radial-gradient(circle, blue, rebeccapurple);
-}
-
 /* header */
 
 /* header title */
@@ -22,7 +18,7 @@ body{
     border-radius: 10px;
     height: 100vh;
     padding-top: 20px;
-    background: linear-gradient(white, lightgray);
+    background: linear-gradient(lightgrey, darkgray);
 }
 
 /* content */
@@ -36,7 +32,7 @@ body{
 .content-section{
     border-radius: 10px;
     /*background-color: wheat;*/
-    background: linear-gradient(wheat, papayawhip);
+    background: linear-gradient(papayawhip, wheat);
     padding: 20px;
 }
 
