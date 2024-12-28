@@ -9,6 +9,7 @@
           href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -17,16 +18,15 @@
 <nav class="navbar navbar-inverse container-fluid">
     <!-- Title -->
     <div class="navbar-header">
-        <p class="navbar-brand" style="color: white;">Saraya Social Center</p>
+        <p class="navbar-brand title">Saraya Social Center</p>
     </div>
-    <ul class="nav navbar-nav navbar-right" style="display: flex; align-items: center;">
+    <ul class="nav navbar-nav navbar-right">
         <!-- Account Link -->
         <li><a href="#"><span class="glyphicon glyphicon-user"></span> Account Name</a></li>
         <!-- Logout Button -->
         <li>
-            <button class="btn btn-danger" id="logoutBtn"
-                    style="margin-left: 10px; margin-right:20px"><span
-                    class="glyphicon glyphicon-log-out"></span> Logout
+            <button class="btn btn-danger" id="logoutBtn">
+                <span class="glyphicon glyphicon-log-out"></span> Logout
             </button>
         </li>
     </ul>
@@ -36,7 +36,7 @@
     <div class="row">
 
         <!-- Sidebar -->
-        <div class="col-sm-2" style="background-color:lightgrey; height: 100vh; padding-top: 20px;">
+        <div class="col-sm-2 sidebar">
             <ul class="nav nav-pills nav-stacked">
                 <li><a href="#"><span class="glyphicon glyphicon-home"></span> Dashboard</a></li>
                 <li><a href="#"><span class="glyphicon glyphicon-th"></span> Groups</a></li>
@@ -44,14 +44,13 @@
             </ul>
         </div>
 
-        <div class="col-sm-10">
+        <div class="col-sm-10 content">
 
             <!-- Main Section -->
-            <div class="container col-sm-12"
-                 style="background-color: wheat; padding: 20px; margin-bottom: 20px;">
+            <div class="container col-sm-12 content-section">
                 <div class="row">
 
-                    <div class="col-sm-1" style="text-align: right; margin-top: 10px;">
+                    <div class="col-sm-1">
                         <button class="btn btn-warning"><span
                                 class="glyphicon glyphicon-pencil"></span> Edit
                         </button>
@@ -71,8 +70,7 @@
 
 
             <!-- Data Section -->
-            <div class="container col-sm-12"
-                 style="background-color: wheat; padding: 20px; margin-bottom: 20px;">
+            <div class="container col-sm-12 content-section">
                 <div class="row">
 
                     <div class="col-sm-4">
@@ -90,8 +88,7 @@
             </div>
 
             <!-- Sessions Section -->
-            <div class="container col-sm-12"
-                 style="background-color: wheat; padding: 20px; margin-bottom: 20px;">
+            <div class="container col-sm-12 content-section">
                 <div class="row">
 
                     <div class="col-sm-4">
@@ -112,8 +109,7 @@
             </div>
 
             <!-- Students Section -->
-            <div class="container col-sm-12"
-                 style="background-color: wheat; padding: 20px; margin-bottom: 20px;">
+            <div class="container col-sm-12 content-section">
                 <div class="row">
 
                     <div class="col-sm-12">

@@ -1,0 +1,48 @@
+
+body{
+    background: radial-gradient(circle, blue, rebeccapurple);
+}
+
+/* header */
+
+/* header title */
+.navbar-inverse .navbar-header .navbar-brand {
+    color: white;
+}
+
+.navbar-inverse .navbar-right {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+/* sidebar */
+
+.sidebar{
+    border-radius: 10px;
+    height: 100vh;
+    padding-top: 20px;
+    background: linear-gradient(white, lightgray);
+}
+
+/* content */
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.content-section{
+    border-radius: 10px;
+    background-color: wheat;
+    padding: 20px;
+}
+
+.content-section-title{
+    margin-bottom: 20px;
+}
+
+.card{
+    border-radius: 10px;
+}
